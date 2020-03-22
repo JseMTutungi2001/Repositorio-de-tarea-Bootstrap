@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarea formulario</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <!--
+        Actividad 1. Usando Boostrap. Realizar un formulario que contenga al menos 4 campos. En los comentarios de esta publicación subir una foto de su formulario y la dirección git donde se puede descargar su ejemplo. Ejemplo de un formulario:
+        : Actor(id, nombre, estatura, email)-->
+
+
+    <br>
+
+
+    <div class="p-5 m-5 bg-light border border-secondary ">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h1 class="display-4"> Formulario</h1>
+                    <hr class="bg-info">
+                    <p class="pb-0 nb-0"> Te invitamos a enviar tus siguientes datos</p>
+                    <p class="text-danger small pt-0 mt-0"> Todos los campos son obligatorios </p>
+                </div>
+            </div>
+        </div>
+
+        <form action="" class="form-check-label ">
+            <div class="form-group">
+                <label for="Cedula" class="control-label col-sm-2">Cedula</label>
+                <div class="col-md-10">-V</div>
+                <div class="col-md-10">
+                    <input class="form-control" id="cedula" type="text" placeholder="Cedula">
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label for="nombre" class="control-label col-sm-2"> Nombre:</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre:">
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="correo" class="control-label col-md-2"> Correo:</label>
+                <div class=" col-md-10">
+                    <input type="text" class="form-control" id="correo" placeholder="Correo:">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="example-number-input" class="control-label col-sm-2">Peso</label>
+                <div class="col-md-10">
+                    <div class="col-md-10">Kg</div>
+                    <input class="form-control" id="example-number-input" value="62" type="number">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="checkbox col-md-2 col-md-offset-2">
+                    <label for="">
+                        <input class="" id="" type="checkbox"> Recuerdame
+                </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-2 col-md-offset-2">
+                    <button class="btn btn-primary">Enviar </button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+
+
+    <script src="jquery/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
